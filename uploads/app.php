@@ -35,7 +35,7 @@
 
     spl_autoload_register('autoload');
 
-    //$info = new informacion();
+    ///$info = new informacion();
     //$user = new usuario();
     //$facture = new factura();
     //$detail = new detalle();

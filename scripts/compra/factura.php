@@ -1,8 +1,9 @@
 <?php
     namespace app\facture;
+    use getinstance as instance;
     class factura{
-        function __construct(){
-            echo "NOMBRE ".__CLASS__; 
+        use instance;
+        private function __construct(){
         }
     }
 ?>

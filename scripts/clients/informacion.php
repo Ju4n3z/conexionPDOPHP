@@ -1,8 +1,11 @@
 <?php
+
     namespace app\info;
+    
+    use getinstance as instance;
     class informacion{
-        function __construct(){
-            echo "NOMBRE ".__CLASS__; 
+        use instance;
+        private function __construct(){
         }
     }
 ?>
